@@ -20,7 +20,7 @@ import { BrowserRouter, Route, Routes, useParams } from 'react-router-dom';
 import { continuentIconPack } from './services/continuentIconPack';
 
 // Load core isoflow icons (always loaded)
-const coreIcons = [...flattenCollections([isoflowIsopack]), ...continuentIconPack];
+const coreIcons = [...continuentIconPack, ...flattenCollections([isoflowIsopack])];
 
 interface SavedDiagram {
   id: string;
