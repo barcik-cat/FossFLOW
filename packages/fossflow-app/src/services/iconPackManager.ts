@@ -42,11 +42,14 @@ export const saveLazyLoadingPreference = (enabled: boolean): void => {
   localStorage.setItem(LAZY_LOADING_KEY, String(enabled));
 };
 
+const KNOWN_PACKS: IconPackName[] = ['aws', 'gcp', 'azure', 'kubernetes'];
+
 export const loadEnabledPacks = (): IconPackName[] => {
   const stored = localStorage.getItem(ENABLED_PACKS_KEY);
   if (!stored) return [];
   try {
-    return JSON.parse(stored) as IconPackName[];
+    const parsed = JSON.parse(stored) as string[];
+    return parsed.filter((p): p is IconPackName => KNOWN_PACKS.includes(p as IconPackName));
   } catch {
     return [];
   }
