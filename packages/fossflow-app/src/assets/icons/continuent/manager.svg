@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 526.399 675">
+<defs>
+<linearGradient id="manager_side_gr" x1="35.094" y1="63.847" x2="35.094" y2="14.797" gradientUnits="userSpaceOnUse">
+<stop offset="0" stop-color="#b1c9e8"/>
+<stop offset=".275" stop-color="#b5cce9"/>
+<stop offset=".6" stop-color="#c4d8ec"/>
+<stop offset=".948" stop-color="#dbeaf2"/>
+<stop offset="1" stop-color="#e0eef3"/>
+</linearGradient>
+<linearGradient id="top_shadow_gr" x1="14680.896" y1="12.983" x2="14704.139" y2="12.983" gradientTransform="translate(14727.612) rotate(-180) scale(1 -1)" gradientUnits="userSpaceOnUse">
+<stop offset="0" stop-color="#dfe1f1" stop-opacity=".78"/>
+<stop offset=".049" stop-color="#c3c9e4" stop-opacity=".78"/>
+<stop offset=".129" stop-color="#9faad3" stop-opacity=".78"/>
+<stop offset=".219" stop-color="#8190c5" stop-opacity=".78"/>
+<stop offset=".322" stop-color="#6a7dba" stop-opacity=".78"/>
+<stop offset=".447" stop-color="#5a6fb3" stop-opacity=".78"/>
+<stop offset=".613" stop-color="#5167af" stop-opacity=".78"/>
+<stop offset="1" stop-color="#4f65ae" stop-opacity=".78"/>
+</linearGradient>
+<linearGradient id="manager_side_gr1" data-name="manager_side_gr" x1="14696.053" y1="17.06" x2="14712.891" y2="7.338" gradientTransform="translate(14727.611) rotate(-180) scale(1 -1)" xlink:href="#manager_side_gr"/>
+<symbol id="manager_block_2" viewBox="0 0 46.944 87.98">
+<g>
+<use width="97.002" height="56.297" transform="translate(0 60.735) scale(.484)" xlink:href="#square_base"/>
+<use width="65.84" height="38.013" transform="translate(3.777 62.916) scale(.598)" xlink:href="#square_shadow"/>
+<polygon points=".229 13.419 .229 64.93 23.473 78.351 23.473 26.839 .229 13.419" fill="#21428d"/>
+<polygon points="1.804 16.837 1.804 63.137 21.898 74.738 21.898 28.439 1.804 16.837" fill="#445fa8" opacity=".5"/>
+<polygon points="2.109 62.925 2.109 17.013 1.804 16.837 1.804 63.137 21.898 74.738 21.898 74.35 2.109 62.925" fill="#879bce"/>
+<polygon points=".229 56.79 23.473 42.757 23.473 26.839 .229 13.419 .229 56.79" fill="#445fa8" opacity=".5"/>
+<use width="2.509" height="2.773" transform="translate(.549 15.45)" xlink:href="#manager_pin"/>
+<use width="2.509" height="2.773" transform="translate(20.043 27.427)" xlink:href="#manager_pin"/>
+<use width="2.509" height="2.773" transform="translate(.549 61.583)" xlink:href="#manager_pin"/>
+<use width="2.509" height="2.773" transform="translate(20.043 73.56)" xlink:href="#manager_pin"/>
+<polygon points="46.716 13.42 46.716 64.931 23.473 78.351 23.473 26.839 46.716 13.42" fill="url(#manager_side_gr)"/>
+<path d="M43.229,25.865v1.362l-16.269,9.394v-1.362l16.269-9.393ZM26.959,41.015v1.362l16.269-9.394v-1.362l-16.269,9.393ZM26.959,46.772v1.361l16.269-9.394v-1.361l-16.269,9.394ZM26.959,52.529v1.361l16.269-9.394v-1.361l-16.269,9.394ZM26.959,58.285v1.362l16.269-9.393v-1.361l-16.269,9.392ZM26.959,64.042v1.361l16.269-9.392v-1.362l-16.269,9.394Z" fill="#445fa8"/>
+<polygon points="23.472 26.839 46.716 13.419 23.473 0 .229 13.42 23.472 26.839" fill="#adc9e8"/>
+<polygon points="23.472 23.312 29.58 23.312 46.716 13.419 28.071 2.654 23.473 2.654 23.472 23.312" fill="url(#top_shadow_gr)"/>
+<polygon points="23.472 22.128 40.337 12.391 23.473 2.654 6.607 12.391 23.472 22.128" fill="url(#manager_side_gr1)"/>
+<polygon points="6.607 12.391 6.607 13.575 23.472 23.312 23.472 22.128 6.607 12.391" fill="#c5daed"/>
+<polygon points="40.337 12.391 40.337 13.575 23.472 23.312 23.472 22.128 40.337 12.391" fill="#6986c0"/>
+<use width="8.734" height="5.043" transform="translate(15.704 7.504)" xlink:href="#manager_vent_2"/>
+<use width="8.734" height="5.043" transform="translate(17.972 8.81)" xlink:href="#manager_vent_2"/>
+<use width="8.734" height="5.043" transform="translate(20.239 10.114)" xlink:href="#manager_vent_2"/>
+<use width="8.734" height="5.043" transform="translate(22.506 11.419)" xlink:href="#manager_vent_2"/>
+</g>
+</symbol>
+<symbol id="manager_pin" viewBox="0 0 2.509 2.773">
+<g>
+<path d="M2.509,1.728c0-.59-.414-1.307-.925-1.602C1.327-.022,1.095-.035.927.063h0S.272.446.272.446l.406.013c-.012.062-.018.128-.018.2,0,.59.414,1.307.925,1.602.068.04.134.068.198.09l-.188.352.641-.375h0c.169-.096.274-.304.274-.601Z" fill="#c5daed"/>
+<path d="M1.849,2.113c0,.59-.414.829-.925.534-.511-.295-.925-1.012-.925-1.602S.414.217.925.512c.51.295.925,1.012.925,1.602Z" fill="#6986c0"/>
+<path d="M1.457,1.887c0,.339-.238.477-.532.307-.294-.17-.532-.582-.532-.922s.239-.477.532-.307c.294.169.532.582.532.922Z" fill="#3a5ba6"/>
+</g>
+</symbol>
+<symbol id="manager_vent_2" viewBox="0 0 8.734 5.043">
+<g>
+<polygon points="1.227 5.043 .48 4.611 .542 4.261 7.47 .229 8.432 .688 8.253 .986 1.227 5.043" fill="#3a5ba6"/>
+<polygon points="7.507 .556 8.253 .986 8.734 .709 7.507 0 0 4.334 .482 4.612 7.507 .556" fill="#6986c0"/>
+</g>
+</symbol>
+<linearGradient id="base_circle_gr" x1="0" y1="28.148" x2="97.002" y2="28.148" gradientUnits="userSpaceOnUse">
+<stop offset="0" stop-color="#62c6ca"/>
+<stop offset=".182" stop-color="#61c1c8"/>
+<stop offset=".397" stop-color="#5eb2c4"/>
+<stop offset=".628" stop-color="#599bbd"/>
+<stop offset=".869" stop-color="#537ab4"/>
+<stop offset="1" stop-color="#4f65ae"/>
+</linearGradient>
+<symbol id="square_base" viewBox="0 0 97.002 56.297">
+<path d="M48.413,56.297c-.562,0-1.102-.117-1.514-.355L.706,29.273c-.456-.263-.706-.644-.706-1.072,0-.489.338-.964.927-1.304L46.676.483c1.023-.591,2.528-.648,3.427-.128l46.193,26.669c.455.263.706.644.706,1.072,0,.489-.338.964-.927,1.305l-45.749,26.413c-.553.319-1.249.483-1.913.483ZM47.243,55.345c.683.394,1.937.337,2.739-.128l45.749-26.413c.365-.211.583-.475.583-.708,0-.221-.196-.38-.362-.475L49.759.952c-.681-.394-1.936-.336-2.739.128L1.271,27.493c-.365.211-.583.476-.583.708,0,.221.196.38.361.475l46.193,26.67Z" fill="url(#base_circle_gr)"/>
+</symbol>
+<symbol id="square_shadow" viewBox="0 0 65.84 38.013">
+<path d="M31.943,37.802L.365,19.571c-.54-.312-.472-.856.151-1.217L31.79.298c.624-.36,1.567-.399,2.107-.087l31.578,18.231c.54.312.472.857-.151,1.217l-31.274,18.056c-.624.361-1.567.4-2.107.088Z" fill="#7f92ca"/>
+</symbol>
+</defs>
+<use width="46.944" height="87.98" transform="translate(134.899) scale(5.44)" xlink:href="#manager_block_2"/>
+<use width="46.944" height="87.98" transform="translate(0 75.921) scale(5.44)" xlink:href="#manager_block_2"/>
+<use width="46.944" height="87.98" transform="translate(271.044 75.921) scale(5.44)" xlink:href="#manager_block_2"/>
+<use width="46.944" height="87.98" transform="translate(134.899 155.915) scale(5.44)" xlink:href="#manager_block_2"/>
+</svg>

@@ -17,8 +17,10 @@ import { useIconPackManager, IconPackName } from './services/iconPackManager';
 import './App.css';
 import { BrowserRouter, Route, Routes, useParams } from 'react-router-dom';
 
+import { continuentIconPack } from './services/continuentIconPack';
+
 // Load core isoflow icons (always loaded)
-const coreIcons = flattenCollections([isoflowIsopack]);
+const coreIcons = [...flattenCollections([isoflowIsopack]), ...continuentIconPack];
 
 interface SavedDiagram {
   id: string;
@@ -71,13 +73,14 @@ function EditorPage() {
   // Initialize with empty diagram data
   // Create default colors for connectors
   const defaultColors = [
-    { id: 'blue', value: '#0066cc' },
-    { id: 'green', value: '#00aa00' },
-    { id: 'red', value: '#cc0000' },
-    { id: 'orange', value: '#ff9900' },
-    { id: 'purple', value: '#9900cc' },
-    { id: 'black', value: '#000000' },
-    { id: 'gray', value: '#666666' }
+    { id: 'continuent-main-blue',   value: '#3066B0' },
+    { id: 'continuent-main-teal',   value: '#239AA5' },
+    { id: 'continuent-main-orange', value: '#FF9434' },
+    { id: 'continuent-main-yellow', value: '#FFB334' },
+    { id: 'continuent-main-grey',   value: '#ECEFF1' },
+    { id: 'continuent-logo-grey',   value: '#546E7A' },
+    { id: 'continuent-medium-grey', value: '#90A4AE' },
+    { id: 'continuent-light-blue',  value: '#8CB5ED' }
   ];
 
   const [diagramData, setDiagramData] = useState<DiagramData>(() => {
