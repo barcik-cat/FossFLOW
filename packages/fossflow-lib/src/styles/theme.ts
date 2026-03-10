@@ -64,6 +64,7 @@ export const themeConfig: ThemeOptions = {
     }
   },
   typography: {
+    fontFamily: "'Geomanist', sans-serif",
     h2: {
       fontSize: '4em',
       fontStyle: 'bold',
