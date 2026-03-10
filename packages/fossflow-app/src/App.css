@@ -6,8 +6,10 @@
 }
 
 .toolbar {
-  background-color: #f5f5f5;
-  border-bottom: 1px solid #ddd;
+  background-color: #f7f8f9;
+  background-color: white;
+  box-shadow: 4px 4px 8px rgba(38,50,56,.1);
+  z-index: 10;
   padding: 10px;
   display: flex;
   gap: 10px;
@@ -16,22 +18,24 @@
 
 .toolbar button {
   padding: 8px 16px;
-  background-color: #007bff;
+  background-color: #3066b0;
   color: white;
-  border: none;
+  border: 1px solid #3066b0;
+  box-sizing: border-box;
   border-radius: 4px;
   cursor: pointer;
   font-size: 14px;
 }
 
 .toolbar button:hover {
-  background-color: #0056b3;
+  color: #3066b0;
+  background-color: white;
 }
 
 .current-diagram {
   margin-left: auto;
   font-size: 14px;
-  color: #666;
+  color: #263238;
 }
 
 .fossflow-container {
@@ -74,7 +78,7 @@
 .dialog h2 {
   margin-top: 0;
   margin-bottom: 20px;
-  color: #333;
+  color: #3066b0;
 }
 
 .dialog input[type="text"] {
@@ -94,6 +98,12 @@
 }
 
 .dialog-buttons button {
+  --bg-color: #3066b0;
+  --text-color: white;
+
+  background-color: var(--bg-color);
+  border: 1px solid var(--bg-color);
+  color: var(--text-color);
   padding: 8px 16px;
   border: none;
   border-radius: 4px;
@@ -101,22 +111,13 @@
   font-size: 14px;
 }
 
-.dialog-buttons button:first-child {
-  background-color: #007bff;
-  color: white;
-}
-
-.dialog-buttons button:first-child:hover {
-  background-color: #0056b3;
+.dialog-buttons button:hover {
+  background-color: var(--text-color);
+  color: var(--bg-color);
 }
 
 .dialog-buttons button:last-child {
-  background-color: #6c757d;
-  color: white;
-}
-
-.dialog-buttons button:last-child:hover {
-  background-color: #5a6268;
+  --bg-color: #546E7A;
 }
 
 .diagram-list {
@@ -136,7 +137,7 @@
 }
 
 .diagram-item:hover {
-  background-color: #f8f9fa;
+  background-color: #F7F8F9;
 }
 
 .diagram-actions {
@@ -145,6 +146,12 @@
 }
 
 .diagram-actions button {
+  --bg-color: #239AA5;
+  --text-color: white;
+
+  background-color: var(--bg-color);
+  border: 1px solid var(--bg-color);
+  color: var(--text-color);
   padding: 4px 12px;
   font-size: 12px;
   border: none;
@@ -152,20 +159,11 @@
   cursor: pointer;
 }
 
-.diagram-actions button:first-child {
-  background-color: #28a745;
-  color: white;
-}
-
-.diagram-actions button:first-child:hover {
-  background-color: #218838;
+.diagram-actions button:hover {
+  background-color: var(--text-color);
+  color: var(--bg-color);
 }
 
 .diagram-actions button:last-child {
-  background-color: #dc3545;
-  color: white;
-}
-
-.diagram-actions button:last-child:hover {
-  background-color: #c82333;
+  --bg-color: #ce4231;
 }

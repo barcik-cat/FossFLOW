@@ -728,7 +728,7 @@ function EditorPage() {
               onClick={() => {
                 return setShowExportDialog(true);
               }}
-              style={{ backgroundColor: '#007bff' }}
+              style={{ backgroundColor: '#8CB5ED' }}
             >
               💾 {t('nav.exportFile')}
             </button>
@@ -767,7 +767,6 @@ function EditorPage() {
             {t('dialog.readOnly.mode')}
           </div>
         )}
-        <ChangeLanguage />
         <span className="current-diagram">
           {isReadonlyUrl ? (
             <span>
