@@ -58,7 +58,7 @@ export const Node = memo(({ node, order }: Props) => {
           top: position.y
         }}
       >
-        {(modelItem?.name || description) && (
+        {(modelItem?.name) && (
           <Box
             sx={{ position: 'absolute' }}
             style={{ bottom: PROJECTED_TILE_SIZE.height / 2 }}
@@ -72,10 +72,6 @@ export const Node = memo(({ node, order }: Props) => {
                 {modelItem.name && (
                   <Typography fontWeight={600}>{modelItem.name}</Typography>
                 )}
-                {modelItem.description &&
-                  modelItem.description !== MARKDOWN_EMPTY_VALUE && (
-                    <RichTextEditor value={modelItem.description} readOnly />
-                  )}
               </Stack>
             </ExpandableLabel>
           </Box>
